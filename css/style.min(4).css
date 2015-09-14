@@ -1,0 +1,105 @@
+.contact_box {
+	width: 600px;
+	height: 60px;
+	margin: 15px auto
+}
+.contact_box .icon_bg {
+	width: 60px;
+	height: 60px;
+	margin-right: 20px
+}
+.contact_box .icon_bg .img_phone, .contact_box .icon_bg .img_add {
+	background: url(../images/icon.png);
+	background-size: 45px 88px;
+	background-position: 0 0;
+	width: 45px;
+	height: 44px;
+	margin: 8px auto
+}
+.contact_box .icon_bg .img_add {
+	background-position: 0 -44px
+}
+.contact_box .icon_right {
+	width: 518px;
+	margin-top: 5px
+}
+.contact_box .icon_right p.s1 {
+	margin: 0;
+	line-height: 150%;
+	font-size: 17px
+}
+.contact_box .icon_right p.s2 {
+	margin: 0;
+	line-height: 150%;
+	font-size: 18px
+}
+@media screen and (max-width:640px) {
+.contact_box {
+	width: 450px;
+	height: 50px;
+	margin: 12px auto
+}
+.contact_box .icon_bg {
+	width: 50px;
+	height: 50px;
+	margin-right: 15px
+}
+.contact_box .icon_bg .img_phone, .contact_box .icon_bg .img_add {
+	background-size: 40.5px 79.2px;
+	width: 40.5px;
+	height: 41px;
+	margin: 5px auto
+}
+.contact_box .icon_bg .img_add {
+	background-position: 0 -39px
+}
+.contact_box .icon_right {
+	width: 380px;
+	margin-top: 4px
+}
+.contact_box .icon_right p.s1 {
+	margin: 0;
+	line-height: 140%;
+	font-size: 16px
+}
+.contact_box .icon_right p.s2 {
+	margin: 0;
+	line-height: 140%;
+	font-size: 17px
+}
+}
+@media screen and (max-width:480px) {
+.contact_box {
+	width: 300px;
+	height: 39px;
+	margin: 12px auto
+}
+.contact_box .icon_bg {
+	width: 39px;
+	height: 39px;
+	margin-right: 10px
+}
+.contact_box .icon_bg .img_phone, .contact_box .icon_bg .img_add {
+	background-size: 29.25px 57.2px;
+	width: 29.25px;
+	height: 28.6px;
+	margin: 5px auto
+}
+.contact_box .icon_bg .img_add {
+	background-position: 0 -29px
+}
+.contact_box .icon_right {
+	width: 240px;
+	margin-top: 2px
+}
+.contact_box .icon_right p.s1 {
+	margin: 0;
+	line-height: 140%;
+	font-size: 12px
+}
+.contact_box .icon_right p.s2 {
+	margin: 0;
+	line-height: 140%;
+	font-size: 14px
+}
+}

@@ -1,0 +1,519 @@
+/* 
+Powered by Hancoson
+ */
+.goHome {
+	width: 100%;
+	text-align: center;
+	line-height: 50px;
+	margin: 100px 0;
+}
+.goHome .goHome_btn {
+	font-size: 20px
+}
+.login_logoBox {
+	width: 600px;
+	height: auto;
+	margin: 20px auto;
+}
+.login_logoBox .logo_b {
+	width: 90px;
+	height: 90px;
+	margin-right: 10px;
+	border: #D8D8D8 1px solid;
+}
+.login_logoBox .logo_b img {
+	width: 90px;
+	height: 90px;
+}
+.login_logoBox .t_box {
+	margin-top: 20px;
+	line-height: 160%
+}
+.login_logoBox .t_box span.xy {
+	font-size: 14px;
+}
+.phone-login, .wx_login1_3 {
+	width: 600px;
+	height: auto;
+	margin: 10px auto;
+}
+.phone-login p {
+	margin: 10px 0
+}
+.phone-login .input_box {
+	border-radius: 0
+}
+.phone-login .wifi-deal {
+	width: 100%;
+	display: table;
+	margin-top: 15px;
+}
+.phone-login .wifi-deal .r-icon, .phone-login .wifi-deal .e-icon {
+	background: url(img/icon.png);
+	width: 40px;
+	height: 40px;
+	background-position: 0 -20px;
+	/*position:absolute;*/
+	margin: -7px 5px 0 180px
+}
+.phone-login .wifi-deal .e-icon {
+	background-position: 0 -60px;
+}
+.agreement {
+	width: 100%;
+	padding: 20px 40px 40px;
+}
+.agreement .title {
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	line-height: 200%
+}
+.agreement p {
+	font-size: 16px;
+	line-height: 150%;
+	text-indent: 2em
+}
+.other-login {
+	width: 100%;
+	padding: 20px 0 0;
+	margin-top: 28px;
+	border-top: #e7e7e7 1px solid;
+}
+.other-login hr {
+	width: 100%;
+	margin: 10px auto 0;
+	border-top: #e7e7e7 1px solid;
+}
+.other-login .title {
+	width: 600px;
+	margin: 0 auto;
+	font-size: 21px
+}
+.other-login .login-box {
+	width: 600px;
+	height: 110px;
+	padding: 20px 0;
+	margin: 10px auto 30px;
+	border: #e7e7e7 1px solid;
+	font-size: 18px
+}
+.other-login .login-box .img_box {
+	margin: 0 auto;
+	display: table
+}
+.other-login .login-box img {
+	width: 45px;
+	height: 40px;
+	margin: 0 auto
+}
+.other-login .login-box .login-btn {
+	width: 90px;
+	height: 40px;
+	text-align: center;
+	margin: 0 15px;
+}
+.other-login .login-box .login-btn div.c-back1 {
+	width: 90px;
+	line-height: 40px;
+	float: left;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.wx_login1_3 {
+	margin: 10px auto;
+	padding: 40px;
+}
+.wx_login1_3 .fl_box {
+	width: 30px;
+}
+.wx_login1_3 .fl_box .icon1, .wx_login1_3 .fl_box .icon2, .wx_login1_3 .fl_box .icon3, .wx_login1_3 .fl_box .icon_w {
+	background: url(img/wx_icon.png);
+	width: 25px;
+	height: 25px;
+	margin: 5px 0 0 0;
+	background-position: 0 0;
+}
+.wx_login1_3 .fl_box .icon2 {
+	background-position: 0 -25px;
+}
+.wx_login1_3 .fl_box .icon3 {
+	background-position: 0 -50px;
+}
+.wx_login1_3 .fl_box .icon_w {
+	background-position: 0 -75px;
+}
+.wx_login1_3 .line_box {
+	border-bottom: #e0e0e0 1px solid;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+}
+.wx_login1_3 .fr_box {
+	width: 480px;
+	font-size: 20px;
+}
+.wx_login1_3 .fr_box p {
+	float: left;
+	line-height: 180%;
+}
+.wx_login1_3 .fr_box img {
+	float: right;
+	width: 100px;
+	height: 100px;
+}
+.wx_input1_3 {
+	width: 100%;
+	margin: 10px auto;
+	padding: 8px;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 0;
+}
+.wx_btn1_3 {
+	width: 100%;
+	margin: 8px auto;
+	padding: 10px 0;
+	font-size: 22px;
+	border-radius: 0;
+}
+.wifi_back1_3 {
+	background: #F0F0F0;
+	width: 100%;
+	line-height: 19px;
+	font-size: 18px;
+	margin: 10px auto;
+	padding: 12px 0;
+}
+.wifi_back1_3 .btn_box {
+	width: 60px;
+	margin: 0 auto;
+}
+.wifi_back1_3 span {
+	color: #0e1212
+}
+.wifi_back1_3 .btn_box .iocn {
+	background: url(img/back.png);
+	width: 12px;
+	height: 20px;
+	margin-right: 5px;
+}
+ @media screen and (max-width: 640px) {
+.goHome .goHome_btn {
+	font-size: 18px
+}
+.login_logoBox {
+	width: 450px;
+	margin: 15px auto;
+}
+.login_logoBox .logo_b {
+	width: 80px;
+	height: 80px;
+	margin-right: 8px;
+}
+.login_logoBox .logo_b img {
+	width: 80px;
+	height: 80px;
+}
+.login_logoBox .t_box {
+	width: 300px;
+	margin-top: 2px;
+	line-height: 160%
+}
+.login_logoBox .t_box span.xy {
+	font-size: 14px;
+}
+.phone-login, .wx_login1_3 {
+	width: 450px;
+	height: auto;
+	margin: 10px auto;
+}
+.phone-login p {
+	margin: 10px 0
+}
+.phone-login .input_box {
+	border-radius: 0;
+	padding: 8px 10px
+}
+.phone-login .wifi-deal {
+	margin-top: 15px;
+}
+.phone-login .wifi-deal .r-icon, .phone-login .wifi-deal .e-icon {
+	background: url(img/icon.png);
+	background-size: 35px 70px;
+	width: 30px;
+	height: 30px;
+	background-position: 0 -81px;
+	margin: -7px 5px 0 130px
+}
+.phone-login .wifi-deal .e-icon {
+	background-position: 0 -39px;
+}
+.agreement {
+	width: 100%;
+	padding: 10px 30px 30px;
+	height: 400px;
+	overflow-y: scroll !important;
+}
+.agreement .title {
+	width: 100%;
+	font-size: 18px;
+	line-height: 180%
+}
+.agreement p {
+	font-size: 14px;
+	line-height: 140%;
+}
+.other-login {
+	padding: 20px 0 5px;
+	margin-top: 28px;
+}
+.other-login hr {
+	margin: 8px auto 0;
+}
+.other-login .title {
+	width: 450px;
+	margin: 0 auto;
+	font-size: 18px
+}
+.other-login .login-box {
+	width: 450px;
+	height: 110px;
+	margin: 10px auto 30px;
+	font-size: 16px
+}
+.other-login .login-box img {
+	width: 45px;
+	height: 40px;
+}
+.other-login .login-box .login-btn {
+	width: 85px;
+	height: 40px;
+	margin: 0 13px;
+}
+.other-login .login-box .login-btn div.c-back1 {
+	width: 85px;
+	line-height: 40px;
+}
+.wx_login1_3 {
+	margin: 8px auto;
+	padding: 20px;
+}
+.wx_login1_3 .fl_box {
+	width: 30px;
+}
+.wx_login1_3 .fl_box .icon1, .wx_login1_3 .fl_box .icon2, .wx_login1_3 .fl_box .icon3, .wx_login1_3 .fl_box .icon_w {
+	width: 25px;
+	height: 25px;
+	margin: 3px 0 0 0;
+}
+.wx_login1_3 .fl_box .icon2 {
+	background-position: 0 -25px;
+}
+.wx_login1_3 .fl_box .icon3 {
+	background-position: 0 -50px;
+}
+.wx_login1_3 .fl_box .icon_w {
+	background-position: 0 -75px;
+}
+.wx_login1_3 .line_box {
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+}
+.wx_login1_3 .fr_box {
+	width: 380px;
+	font-size: 18px;
+}
+.wx_login1_3 .fr_box p {
+	line-height: 180%;
+}
+.wx_login1_3 .fr_box img {
+	width: 85px;
+	height: 85px;
+}
+.wx_input1_3 {
+	margin: 8px auto;
+	padding: 8px;
+	font-size: 18px;
+}
+.wx_btn1_3 {
+	margin: 6px auto;
+	padding: 8px 0;
+	font-size: 20px;
+}
+.wifi_back1_3 {
+	line-height: 19px;
+	font-size: 18px;
+	margin: 10px auto;
+	padding: 10px 0;
+}
+.wifi_back1_3 .btn_box {
+	width: 60px;
+}
+}
+ @media screen and (max-width: 480px) {
+.goHome {
+	line-height: 50px;
+	margin: 60px 0;
+}
+.goHome .goHome_btn {
+	font-size: 16px
+}
+.login_logoBox {
+	width: 300px !important;
+	margin: 10px auto;
+}
+.login_logoBox .logo_b {
+	width: 60px;
+	height: 60px;
+	margin-right: 8px;
+}
+.login_logoBox .logo_b img {
+	width: 60px;
+	height: 60px;
+}
+.login_logoBox .t_box {
+	width: 230px;
+	line-height: 130%
+}
+.login_logoBox .t_box span.xy {
+	font-size: 12px;
+}
+.phone-login, .wx_login1_3 {
+	width: 300px;
+	height: auto;
+	margin: 10px auto;
+}
+.phone-login p {
+	margin: 10px 0
+}
+.phone-login .input_box {
+	border-radius: 0;
+	padding: 6px 8px;
+	font-size: 14px;
+}
+.phone-login .btn22-l {
+	padding: 8px 10px;
+	font-size: 16px;
+}
+.phone-login .wifi-deal {
+	margin-top: 10px;
+}
+.phone-login .wifi-deal .r-icon, .phone-login .wifi-deal .e-icon {
+	background: url(img/icon.png);
+	background-size: 30px 60px;
+	width: 25px;
+	height: 25px;
+	background-position: 0 -10px;
+	margin: -3px 5px 0 60px
+}
+.phone-login .wifi-deal .e-icon {
+	background-position: 0 -34px;
+}
+.agreement {
+	width: 100%;
+	padding: 10px 20px 20px;
+	height: 300px;
+	overflow-y: scroll !important;
+}
+.agreement .title {
+	font-size: 16px;
+	line-height: 160%
+}
+.agreement p {
+	font-size: 12px;
+	line-height: 130%;
+}
+.other-login {
+	padding: 12px 0 5px;
+	margin-top: 20px;
+}
+.other-login hr {
+	margin: 8px auto 0;
+}
+.other-login .title {
+	width: 300px;
+	margin: 0 auto;
+	font-size: 16px
+}
+.other-login .login-box {
+	width: 300px;
+	height: 80px;
+	padding: 12px 0;
+	margin: 10px auto 20px;
+	font-size: 12px
+}
+.other-login .login-box img {
+	width: 36px;
+	height: 32px;
+}
+.other-login .login-box .login-btn {
+	width: 50px;
+	height: 32px;
+	margin: 0 5px;
+}
+.other-login .login-box .login-btn div.c-back1 {
+	width: 50px;
+	line-height: 32px;
+}
+.wx_login1_3 {
+	padding: 10px;
+}
+.wx_login1_3 .fl_box {
+	width: 22px;
+}
+.wx_login1_3 .fl_box .icon1, .wx_login1_3 .fl_box .icon2, .wx_login1_3 .fl_box .icon3, .wx_login1_3 .fl_box .icon_w {
+	background-size: 20px 80px;
+	width: 20px;
+	height: 20px;
+	margin: 3px 0 0 0;
+}
+.wx_login1_3 .fl_box .icon2 {
+	background-position: 0 -20px;
+}
+.wx_login1_3 .fl_box .icon3 {
+	background-position: 0 -40px;
+}
+.wx_login1_3 .fl_box .icon_w {
+	background-position: 0 -60px;
+}
+.wx_login1_3 .line_box {
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+}
+.wx_login1_3 .fr_box {
+	width: 253px;
+	font-size: 14px;
+}
+.wx_login1_3 .fr_box p {
+	line-height: 180%;
+}
+.wx_login1_3 .fr_box img {
+	width: 40px;
+	height: 40px;
+}
+.wx_input1_3 {
+	margin: 6px auto;
+	padding: 6px;
+	font-size: 16px;
+}
+.wx_btn1_3 {
+	margin: 4px auto;
+	padding: 4px 0;
+	font-size: 18px;
+}
+.wifi_back1_3 {
+	line-height: 19px;
+	font-size: 16px;
+	margin: 8px auto;
+	padding: 8px 0;
+}
+.wifi_back2 .btn_box {
+	width: 60px;
+}
+.wifi_back1_3 .btn_box .iocn {
+	background-size: 9.6px 16px;
+	width: 9.6px;
+	height: 16px;
+	margin-right: 5px;
+}
+}

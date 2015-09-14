@@ -1,0 +1,64 @@
+/* 
+Powered by Hancoson
+ */
+.info_box {
+	width: 600px;
+	height: auto;
+	margin: 20px auto;
+}
+.info_box .logo_b {
+	width: 90px;
+	height: 90px;
+	margin-right: 10px;
+	border: #D8D8D8 1px solid;
+}
+.info_box .logo_b img {
+	width: 90px;
+	height: 90px;
+}
+.info_box .t_box {
+	width: 500px;
+	font-size: 17px;
+}
+@media screen and (max-width: 640px) {
+.info_box {
+	width: 450px;
+	height: auto;
+	margin: 15px auto;
+}
+.info_box .logo_b {
+	width: 80px;
+	height: 80px;
+	margin-right: 10px;
+	border: #D8D8D8 1px solid;
+}
+.info_box .logo_b img {
+	width: 80px;
+	height: 80px;
+}
+.info_box .t_box {
+	width: 360px;
+	font-size: 15px;
+}
+}
+ @media screen and (max-width: 480px) {
+.info_box {
+	width: 300px;
+	height: auto;
+	margin: 10px auto;
+}
+.info_box .logo_b {
+	width: 60px;
+	height: 60px;
+	margin-right: 10px;
+	border: #D8D8D8 1px solid;
+}
+.info_box .logo_b img {
+	width: 60px;
+	height: 60px;
+}
+.info_box .t_box {
+	width: 230px;
+	font-size: 13px;
+}
+}

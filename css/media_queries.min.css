@@ -1,0 +1,202 @@
+@media screen and (max-width:640px) {
+body {
+	font-size: 16px
+}
+.mt20 {
+	margin-top: 18px
+}
+.btn22-l {
+	width: 450px;
+	padding: 10px 0;
+	font: 22px/1.25 Microsoft YaHei, Tahoma, arial, \5b8b\4f53
+}
+.btn20-s {
+	width: 190px;
+	padding: 11px 0;
+	font: 20px/1.25 Microsoft YaHei, Tahoma, arial, \5b8b\4f53
+}
+.input20-l {
+	width: 450px;
+	padding: 10px 14px;
+	font: 20px/1.25 Microsoft YaHei, Tahoma, arial, \5b8b\4f53
+}
+.input20-s {
+	width: 250px;
+	padding: 10px 14px;
+	font: 20px/1.25 Microsoft YaHei, Tahoma, arial, \5b8b\4f53
+}
+.btn22-w {
+	width: 405px;
+	padding: 10px 0;
+	font: 20px/1.25 Microsoft YaHei, Tahoma, arial, \5b8b\4f53
+}
+.header {
+	height: 40px
+}
+.header .title {
+	width: 480px;
+	height: 40px;
+	font-size: 20px;
+	line-height: 40px
+}
+.footer {
+	width: 480px
+}
+.content {
+	width: 480px;
+	margin: 40px auto 0
+}
+.bg404, .bg500 {
+	background-size: 480px 424px;
+	width: 480px;
+	height: 424px
+}
+.successBox {
+	padding: 20px 0;
+	font-size: 18px
+}
+.successBox .textBox .right_icon {
+	background-size: 25px 25px;
+	width: 25px;
+	height: 25px;
+	margin: 0 5px 0 0
+}
+.successBox2 .textBox .right_icon2 {
+	margin: 6px 5px 0 0
+}
+.successBox .textBox .s_font {
+	font-size: 14px
+}
+.successBox3 {
+	padding: 40px 0
+}
+.successBox3 .face {
+	background-size: 55px 55px;
+	width: 55px;
+	height: 55px;
+	margin: 0 14px 0 55px
+}
+.successBox3 .face_t {
+	margin-top: 8px
+}
+.map_box {
+	width: 450px;
+	height: 300px!important;
+	margin: 10px auto
+}
+.successBox4 {
+	width: 180px;
+	height: 180px;
+	margin: 30px auto
+}
+.successBox4 img {
+	width: 180px;
+	height: 180px
+}
+.successBox4_t {
+	font-size: 24px;
+	margin-bottom: 40px
+}
+}
+@media screen and (max-width:480px) {
+body {
+	font-size: 14px
+}
+.mt20 {
+	margin-top: 15px
+}
+.btn22-l {
+	width: 300px;
+	padding: 8px 0;
+	font: 20px/1.25 Microsoft YaHei, Tahoma, arial, \5b8b\4f53
+}
+.btn20-s {
+	width: 140px;
+	padding: 8px 0;
+	font: 18px/1.25 Microsoft YaHei, Tahoma, arial, \5b8b\4f53
+}
+.input20-l {
+	width: 300px;
+	padding: 8px 12px;
+	font: 18px/1.25 Microsoft YaHei, Tahoma, arial, \5b8b\4f53
+}
+.input20-s {
+	width: 150px;
+	padding: 8px 12px;
+	font: 18px/1.25 Microsoft YaHei, Tahoma, arial, \5b8b\4f53
+}
+.btn22-w {
+	width: 260px;
+	padding: 10px 0;
+	font: 18px/1.25 Microsoft YaHei, Tahoma, arial, \5b8b\4f53
+}
+.header {
+	height: 35px
+}
+.header .title {
+	width: 320px;
+	height: 35px;
+	font-size: 18px;
+	line-height: 35px
+}
+.footer {
+	width: 320px;
+	font-size: 12px
+}
+.content {
+	width: 320px;
+	margin: 35px auto 0
+}
+.bg404, .bg500 {
+	background-size: 320px 282.7px;
+	width: 320px;
+	height: 282.7px
+}
+.successBox {
+	padding: 15px 0;
+	font-size: 16px
+}
+.successBox .textBox .right_icon {
+	background-size: 22px 22px;
+	width: 22px;
+	height: 22px;
+	margin: -2px 5px 0 0
+}
+.successBox2 .textBox .right_icon2 {
+	margin: 4px 5px 0 0
+}
+.successBox .textBox .s_font {
+	font-size: 12px
+}
+.successBox3 {
+	padding: 30px 0
+}
+.successBox3 .face {
+	background-size: 45px 45px;
+	width: 45px;
+	height: 45px;
+	margin: 0 10px 0 35px
+}
+.successBox3 .face_t {
+	width: 200px;
+	margin-top: -8px
+}
+.map_box {
+	width: 300px;
+	height: 200px!important;
+	margin: 8px auto
+}
+.successBox4 {
+	width: 120px;
+	height: 120px;
+	margin: 20px auto
+}
+.successBox4 img {
+	width: 120px;
+	height: 120px
+}
+.successBox4_t {
+	font-size: 18px;
+	margin-bottom: 30px
+}
+}

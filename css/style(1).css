@@ -1,0 +1,295 @@
+/* 
+Powered by Hancoson
+ */
+.wixin-login {
+	width: 640px;
+	height: auto;
+	margin: 50px auto 10px;
+}
+.wixin-login .w_btnBox {
+	width: 640px;
+	margin-top: 40px;
+	text-align: center
+}
+.wixin-login .left_line {
+	position: absolute;
+	z-index: 0;
+	width: 1px;
+	border-left: #e6e6e6 2px solid;
+	height: 600px;
+	margin: -110px 0 0 80px
+}
+.wixin-login .topbtn .b-icon {
+	background: url(img/icon.png) no-repeat;
+	width: 50px;
+	height: 20px;
+	margin: 20px auto 0
+}
+.wixin-login .step_bg1 {
+	background: #fff;
+	padding: 0 40px;
+	width: 100%;
+	height: auto;
+}
+.wixin-login .step_bg2 {
+	background: #f7f7f7;
+	padding: 0 40px;
+	width: 100%;
+	height: auto;
+}
+.wixin-login .num-box1, .wixin-login .num-box2, .wixin-login .num-box3 {
+	background: url(img/num.png);
+	background-position: 0 0;
+	width: 80px;
+	height: 80px;
+	position: relative;
+	z-index: 2;
+}
+.wixin-login .num-box2 {
+	background-position: 0 -80px;
+	margin-top: 47px
+}
+.wixin-login .num-box2_1 {
+	margin-top: 68px
+}
+.wixin-login .num-box3 {
+	background-position: 0 -160px;
+	margin-top: 40px;
+	height: 60px
+}
+.wixin-login .line-box {
+	width: 600px;
+	height: 5px
+}
+.wixin-login .r-info1, .wixin-login .r-info2 {
+	width: 460px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	font-size: 30px;
+}
+.wixin-login .r-info1 {
+	margin-top: -20px
+}
+.wixin-login .r-info1_1 {
+	margin: -5px 0 30px 0
+}
+.wixin-login .r-info1 p {
+	color: #7b7b7b;
+	font-size: 24px;
+}
+.wixin-login .r-info1 p span {
+	font-size: 28px;
+	font-weight: bold;
+	color: #59c7fc;
+}
+.wixin-login .r-info1 img {
+	width: 90px;
+	height: 90px;
+	float: right
+}
+.wixin-login .r-info2 {
+	padding: 40px 0;
+}
+.wixin-login .r-info2 .a_style {
+	color: #808080;
+	font-size: 24px;
+	text-decoration: underline
+}
+.wixin-login .go_weixin, .wixin-login .go_login {
+	position: relative;
+	z-index: 2;
+	background: url(img/btn.png);
+	background-position: 0 0;
+	width: 580px;
+	height: 100px;
+	margin: 10px auto 30px
+}
+.wixin-login .go_login {
+	background-position: 0 -100px;
+}
+.wixin-login .go_back {
+	font-size: 28px;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.wixin-login .go_back a {
+	color: #99e14b
+}
+@media screen and (max-width: 640px) {
+.wixin-login {
+	width: 480px;
+	margin: 40px auto 7px;
+}
+.wixin-login .w_btnBox {
+	width: 480px;
+	margin-top: 30px;
+}
+.wixin-login .left_line {
+	height: 460px;
+	margin: -110px 0 0 62px
+}
+.wixin-login .step_bg1 {
+	padding: 0 30px;
+}
+.wixin-login .step_bg2 {
+	padding: 0 30px;
+}
+.wixin-login .num-box1, .wixin-login .num-box2, .wixin-login .num-box3 {
+	background-size: 64px 176px;
+	width: 64px;
+	height: 64px;
+}
+.wixin-login .num-box2 {
+	background-position: 0 -64px;
+	margin-top: 25px
+}
+.wixin-login .num-box2_1 {
+	margin-top: 34px
+}
+.wixin-login .num-box3 {
+	background-position: 0 -128px;
+	margin-top: 20px;
+	height: 48px
+}
+.wixin-login .line-box {
+	width: 480px;
+	height: 5px
+}
+.wixin-login .r-info1, .wixin-login .r-info2 {
+	width: 330px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	font-size: 22px;
+}
+.wixin-login .r-info1 {
+	margin-top: -20px
+}
+.wixin-login .r-info1_1 {
+	margin: -5px 0 30px 0
+}
+.wixin-login .r-info1 p {
+	font-size: 18px;
+}
+.wixin-login .r-info1 p span {
+	font-size: 20px;
+}
+.wixin-login .r-info1 img {
+	width: 60px;
+	height: 60px;
+}
+.wixin-login .r-info2 {
+	padding: 20px 0;
+}
+.wixin-login .r-info2 .a_style {
+	font-size: 18px;
+}
+.wixin-login .go_weixin, .wixin-login .go_login {
+	background-size: 464px 160px;
+	width: 464px;
+	height: 80px;
+	margin: 5px auto 20px
+}
+.wixin-login .go_login {
+	background-position: 0 -80px;
+}
+.wixin-login .go_back {
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+}
+ @media screen and (max-width: 480px) {
+.wixin-login {
+	width: 320px;
+	margin: 35px auto 5px;
+}
+.wixin-login .w_btnBox {
+	width: 320px;
+	margin-top: 20px;
+}
+.wixin-login .left_line {
+	border-left: #e6e6e6 1px solid;
+	height: 355px;
+	margin: -110px 0 0 40px
+}
+.wixin-login .step_bg1 {
+	padding: 0 20px;
+}
+.wixin-login .step_bg2 {
+	padding: 0 20px;
+}
+.wixin-login .num-box1, .wixin-login .num-box2, .wixin-login .num-box3 {
+	background-size: 40px 110px;
+	width: 40px;
+	height: 40px;
+	margin-top: -8px
+}
+.wixin-login .num-box2 {
+	background-position: 0 -40px;
+	margin-top: 20px
+}
+.wixin-login .num-box2_1 {
+	margin-top: 27px
+}
+.wixin-login .num-box3 {
+	background-position: 0 -80px;
+	margin-top: 15px;
+	height: 30px
+}
+.wixin-login .line-box {
+	width: 300px;
+	height: 5px
+}
+.wixin-login .r-info1, .wixin-login .r-info2 {
+	width: 230px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	font-size: 15px;
+}
+.wixin-login .r-info1 {
+	margin-top: -20px
+}
+.wixin-login .r-info1_1 {
+	margin: -17px 0 8px 0
+}
+.wixin-login .r-info1 p {
+	font-size: 12px;
+}
+.wixin-login .r-info1 p span {
+	font-size: 14px;
+}
+.wixin-login .r-info1 img {
+	width: 45px;
+	height: 45px;
+}
+.wixin-login .r-info2 {
+	padding: 15px 0;
+}
+.wixin-login .r-info2 .a_style {
+	font-size: 14px;
+}
+.wixin-login .go_weixin, .wixin-login .go_login {
+	background-size: 290px 100px;
+	width: 290px;
+	height: 50px;
+	margin: 5px auto 20px
+}
+.wixin-login .go_login {
+	background-position: 0 -50px;
+}
+.wixin-login .go_back {
+	font-size: 16px;
+}
+}
+.cover_title{text-align:center;} 
+.cover_title h3{font-size:22px; font-weight:bold;font-family:"宋体"}
+
+.cover_logo{width:260px; margin:0px auto;}
+.menu{width:260px;height:230px; position:relative;margin-top:100px;background:url(../images/menu.png) no-repeat;}
+
+.menu .box{width:260px;height:260px;position:absolute;top:-100px;left:0px;}
+.menu .box a{position:absolute;}
+.menu .box .t1{background:url(../images/qq.png) no-repeat; background-size:50px 50px; width:50px;height:50px;right:226px;top:84px;}
+.menu .box .t2{background:url(../images/wb.png) no-repeat; background-size:50px 50px; width:50px;height:50px;right:194px;top:24px;}
+.menu .box .t3{background:url(../images/wx.png) no-repeat; background-size:50px 50px; width:50px;height:50px;left:194px;top:24px;}
+.menu .box .t4{background:url(../images/yy.png) no-repeat; background-size:50px 50px; width:50px;height:50px;left:226px;top:84px;}

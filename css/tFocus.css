@@ -1,0 +1,87 @@
+.keChgImg {
+	min-height: 750px;
+	width: 100%;
+	background: #FFF;
+	position: relative;
+	overflow: hidden;
+	margin: 0px auto;
+}
+.keImgs li {
+	float: left;
+	max-height: 750px;
+	width: 20%;
+	margin: 0px auto;
+}
+.keImgs {
+	max-height: 750px;
+	overflow: hidden;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.keImgBtn {
+	float: right;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+.keImgBtn ul li {
+	float: right;
+	height: 22px;
+	width: 22px;
+	text-align: center;
+	padding-top: 6px;
+	position: relative;
+	color: #FFF;
+	cursor: pointer;
+	font: 14px "微软雅黑";
+}
+.keImgBtn ul li.keImgCutLi {
+	color: #fefc41;
+}
+.adChgImg {
+	width: 100%;
+	min-height: 180px;
+	max-height: 320px;
+	background: #FFF;
+	position: relative;
+	overflow: hidden;
+	margin: 0px auto;
+}
+.adImgs li {
+	float: left;
+	width: 25%;
+	min-height: 180px;
+	max-height: 320px;
+}
+.adImgs {
+	min-height: 180px;
+	max-height: 320px;
+	overflow: hidden;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.adImgBtn {
+	float: left;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+.adImgBtn ul li {
+	float: left;
+	height: 22px;
+	width: 22px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 6px;
+	background: #fff;
+	position: relative;
+	color: #FFF;
+	cursor: pointer;
+	font: 14px "微软雅黑";
+}
+.adImgBtn ul li.adImgCutLi {
+	color: #fefc41;
+}
